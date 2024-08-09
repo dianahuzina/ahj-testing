@@ -33,7 +33,8 @@ document.addEventListener("DOMContentLoaded", () => {
       form.classList.add("validForm");
       form.classList.remove("invalidForm");
       valid.textContent = "Your card number is valid";
-      payment.textContent = "Payment system is " + checkPaymentSystem(cardNumber);
+      payment.textContent =
+        "Payment system is " + checkPaymentSystem(cardNumber);
     } else {
       form.classList.add("invalidForm");
       form.classList.remove("validForm");
