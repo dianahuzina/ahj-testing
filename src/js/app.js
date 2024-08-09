@@ -30,10 +30,13 @@ document.addEventListener("DOMContentLoaded", () => {
     const payment = document.querySelector(".payment");
     const cardNumber = input.value;
     if (validateCardNumber(cardNumber)) {
+      form.classList.add("validForm");
+      form.classList.remove("invalidForm");
       valid.textContent = "Your card number is valid";
-      payment.textContent =
-        "Payment system is " + checkPaymentSystem(cardNumber);
+      payment.textContent = "Payment system is " + checkPaymentSystem(cardNumber);
     } else {
+      form.classList.add("invalidForm");
+      form.classList.remove("validForm");
       valid.textContent = "Card number is invalid";
       payment.textContent = "";
     }
