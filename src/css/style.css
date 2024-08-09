@@ -1,0 +1,98 @@
+* {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.container {
+  margin-top: 50px;
+  width: 41%;
+}
+
+.cards {
+  height: 20px;
+}
+
+.card {
+  float: left;
+  width: 41px;
+  height: 25px;
+  text-indent: -9999px;
+  background-position: 0 0;
+  margin-right: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  border-radius: 3px;
+}
+
+.disabled {
+  opacity: 0.4;
+}
+
+.visa {
+  background-image: url('../img/visa.png');
+}
+
+.mastercard {
+  background-image: url('../img/mastercard.png');
+}
+
+.amex {
+  background-image: url('../img/american-express.png');
+}
+
+.discover {
+  background-image: url('../img/discover.png');
+}
+
+.jcb {
+  background-image: url('../img/jcb.png');
+}
+
+.diners {
+  background-image: url('../img/diner.png');
+}
+
+.mir {
+  background-image: url('../img/card-mir.png');
+}
+
+.form-input {
+  padding: 6px 12px;
+  margin-right: 5px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.form-input::placeholder {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.form-input:hover {
+  cursor: text;
+}
+
+.form-input:focus {
+  outline: none;
+}
+
+.btn {
+  padding: 7px 15px;
+  margin-top: 5px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #5cb85c;
+  border: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 10px;
+  
+}
